@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="sidenav">
+        <ol>
+            <li><a href="#Q1"> Palindrome Checker</a></li>
+            <br>
+            <li><a href="#Q2"> FizzBuzz</a></li>
+            <br>
+            <li><a href="#Q3"> Prime Number Checker</a></li>
+            <br>
+            <li><a href="#Q4"> Fibonacci Sequence</a> </li>
+            <br>
+            <li><a href="#Q5"> Anagram Checker</a></li>
+
+        </ol>
+        <p>By Bishal Rajbahak</p>
+
+    </nav>
+    <div class="main">
+        <section>
+            <div class="Q1" id="Q1">
+                <h1>1.Palindrome Checker</h1>
+                <h3>Type a text to check palindrome.</h3>
+                <input id="input1">
+                <button class="btn" onclick="palindromeChecker()">Check Palindrome</button>
+
+
+                <h3>Your result.</h3>
+
+                <p id="answer1">Your answer will display here.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="Q2" id="Q2">
+                <h1>2. FizzBuzz</h1>
+                <p class="note">
+                    Note: For multiples of 3, It shows "Fizz" instead of the number,
+                    and for multiples of 5,"Buzz". For numbers that are multiples
+                    of both 3 and 5, it shows "FizzBuzz".
+                </p>
+                <h3>Give it a try.</h3>
+
+                <input id="input2" type="number">
+                <button class="btn" onclick="fizzBuzz()">Launch Fizzbuzz</button>
+
+                <h3>Your result.</h3>
+
+                <h2>
+                    <p id="answer2">Your answer will display here.</p>
+                </h2>
+            </div>
+        </section>
+
+        <section>
+            <div class="Q3" id="Q3">
+                <h1>3. Prime Number Checker</h1>
+                <h3>Type a number to check if the number is Prime or Composite.</h3>
+                <input id="input3" type="number">
+                <button class="btn" onclick="prime()">Check Prime or Composite</button>
+
+                <h3>Your result.</h3>
+
+                <h2>
+                    <p id="answer3">Your answer will display here.</p>
+                </h2>
+            </div>
+        </section>
+
+        <section>
+            <div class="Q4" id="Q4">
+                <h1>4. Fibonacci Sequence </h1>
+                <h3>Type a number to genererate Fibonacci Sequence upto the given terms.</h3>
+                <input id="input4" type="number">
+                <button class="btn" onclick="getFibonacci()">Genererate Fibonacci Sequence</button>
+
+                <h3>Your result.</h3>
+
+                <h2>
+                    <p id="answer4">Your answer will display here.</p>
+                </h2>
+            </div>
+        </section>
+
+        <section>
+            <div class="Q5" id="Q5">
+                <h1>5. Anagram Checker</h1>
+                <h3>Are they Anagrams? .</h3>
+                <input id="input5-1" placeholder="Type first word or phrase">
+                <input id="input5-2" placeholder="Type second word or phrase">
+                <button class="btn" onclick="checkAnagram()">Check</button>
+
+
+                <h3>Your result.</h3>
+
+                <p id="answer5">Your answer will display here.</p>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="style.css"></script>
+</body>
+
+</html>
